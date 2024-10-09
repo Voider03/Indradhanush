@@ -1,0 +1,100 @@
+body, html {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    text-align: center;
+    background-color: rgba(122, 255, 99, 0.082);
+}
+
+a{
+    text-decoration: none;
+    color: blue;
+}
+
+p{
+    font-size: 50;
+    text-align: center;
+}
+
+h1{
+    text-align: center;
+    z-index: 1;
+    margin-top: 4rem;
+    font-size: 2.4rem;
+    font-weight: bold;
+}
+
+h2{
+    padding: 0px;
+    margin: 0px;
+}
+
+img{
+    align-self: center;
+}
+
+button {
+    text-decoration: none;
+    background-color: aquamarine;
+    color:blue;
+    border: solid 1px black;
+    border-radius: 2px;
+    padding: 3px;
+    margin: 10px;
+    width: 5rem;
+    text-align: center;
+    display: inline-block;
+}
+
+button.onclick{
+    background-color: grey;
+}
+
+hr {
+    height: 2px;
+    background-color: rgb(0, 138, 14);
+}
+
+.parent-container {
+    text-align: center;       /* Center the container’s content horizontally */
+    max-width: 60rem;         /* Set max-width to fit three divs */
+    margin: 0 auto;           /* Center the container */
+    white-space: normal;      /* Allow line wrapping */
+}
+
+.parent-container > div {
+    display: inline-block;    /* Use inline-block for horizontal alignment */
+    vertical-align: top;      /* Align divs to the top */
+    width: 12rem;             /* Set fixed width for each div */
+    margin: 3.5rem ;      /* Add spacing and bottom margin */
+    text-align: center;       /* Center text inside the div */
+    border: 3px solid black; /* Optional: Add a border */
+    border-radius: 10px; 
+    background-color: rgba(45, 164, 24, 0.842);     /* Optional: Add border radius */
+}
+
+.main {
+    width: 100%;              /* Make the image fill the width of its container */
+    height: 300px;             /* Maintain aspect ratio */
+    border-radius: 10px;      /* Match border radius of the div */
+}
+
+#titlebar {
+    background-color: #1fa804d4; /* Green background color */
+    height: 1.5rem;                /* Increase height to make the header visible */
+    width: 100%;                 /* Make sure the header spans the full width */
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    padding: 10px; /* Optional shadow for separation */
+    position: fixed;            /* Fix the header position */
+    top: 0;                     /* Position it at the top */
+    left: 0;    
+    opacity: 3;                /* Align it to the left */             /* Ensure the header is on top of other elements */
+}
+
+
+#cover{
+    height: 450px;
+    width: 300px;
+}
